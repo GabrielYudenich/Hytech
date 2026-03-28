@@ -58,8 +58,8 @@ public final class HytechPistonLogic {
             Vector3i forward = new Vector3i(front.x + dir.x, front.y + dir.y, front.z + dir.z);
             BlockType forwardType = world.getBlockType(forward);
             if (HytechBlockUtil.isEmpty(forwardType)) {
-                world.setBlock(forward.x, forward.y, forward.z, frontType);
-                world.setBlock(front.x, front.y, front.z, BlockType.EMPTY);
+                HytechBlockUtil.setBlock(world, forward, frontType);
+                HytechBlockUtil.setBlock(world, front, BlockType.EMPTY);
             }
         }
 
@@ -78,15 +78,15 @@ public final class HytechPistonLogic {
         BlockType frontType = world.getBlockType(front);
         BlockType forwardType = world.getBlockType(forward);
         if (HytechBlockUtil.isEmpty(frontType) && !HytechBlockUtil.isEmpty(forwardType)) {
-            world.setBlock(front.x, front.y, front.z, forwardType);
-            world.setBlock(forward.x, forward.y, forward.z, BlockType.EMPTY);
+            HytechBlockUtil.setBlock(world, front, forwardType);
+            HytechBlockUtil.setBlock(world, forward, BlockType.EMPTY);
         }
 
         HytechBlockUtil.setState(world, pos, pistonBlock, "default");
     }
 
     private static Vector3i resolveDirection(World world, Vector3i pos) {
-        int rotationIndex = world.getRotationIndex(pos.x, pos.y, pos.z);
+        int rotationIndex = HytechBlockUtil.getRotationIndex(world, pos);
         RotationTuple tuple = RotationTuple.get(rotationIndex);
         Vector3i axis = tuple.yaw().getAxisDirection();
         return new Vector3i(axis);
