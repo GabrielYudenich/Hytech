@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Component_Frame_Machine.name"
+  },
+  "Categories": [
+    "Hytech.Components"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Component_Plate_Bronze",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Component_Rod_Bronze",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Component_Gear_Bronze",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 2
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Machine_Frame.png",
+  "Icon": "Icons/ItemsGenerated/Component_Frame_Machine.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Components",
+  "Id": "Component_Frame_Machine",
+  "Quality": "Common",
+  "MaxStack": 100
+}

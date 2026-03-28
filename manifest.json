@@ -1,0 +1,26 @@
+{
+  "Group": "Gabriel Yudenich",
+  "Name": "Hytech",
+  "Version": "1.0.0",
+  "Description": "Hytech - mod de tecnologia com minérios, ligas, componentes e blocos de máquinas.",
+  "Authors": [
+    {
+      "Name": "Gabriel Yudenich",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "OpenAI Codex",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

@@ -1,0 +1,23 @@
+{
+  "Icon": "Icons/ItemCategories/HytechCategory.png",
+  "Order": 2,
+  "Children": [
+    {
+      "Id": "Items",
+      "Name": "server.ui.Hytech.Items",
+      "Icon": "Icons/ItemCategories/HytechCategory-Items.png"
+    },
+    {
+      "Id": "Components",
+      "Name": "server.ui.Hytech.Components",
+      "Icon": "Icons/ItemCategories/HytechCategory-Components.png"
+    },
+    {
+      "Id": "Blocks",
+      "Name": "server.ui.Hytech.Blocks",
+      "Icon": "Icons/ItemCategories/HytechCategory-Blocks.png"
+    }
+  ],
+  "Id": "Hytech",
+  "Name": "Hytech"
+}

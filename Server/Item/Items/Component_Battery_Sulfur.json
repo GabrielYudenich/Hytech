@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Component_Battery_Sulfur.name"
+  },
+  "Categories": [
+    "Hytech.Components"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Component_Plate_Copper",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Zinc",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Sulfur",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 2
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Sulfur_Battery.png",
+  "Icon": "Icons/ItemsGenerated/Component_Battery_Sulfur.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Components",
+  "Id": "Component_Battery_Sulfur",
+  "Quality": "Common",
+  "MaxStack": 100
+}

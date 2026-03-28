@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Block_Cable_Copper.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Block_Cable_Copper.png",
+  "Categories": [
+    "Hytech.Blocks"
+  ],
+  "SubCategory": "Machines",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Component_Wire_Copper",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 3
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Block_Cable_Copper"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "BlockTextures/Hytech_Cable_Copper.png"
+      }
+    ],
+    "ParticleColor": "#b87333",
+    "State": {
+      "Definitions": {
+        "Powered": {
+          "Textures": [
+            {
+              "All": "BlockTextures/Hytech_Cable_Copper_Powered.png"
+            }
+          ]
+        }
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Block"
+    ]
+  },
+  "MaxStack": 50,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Id": "Block_Cable_Copper",
+  "Set": "Rock_Stone",
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
+}

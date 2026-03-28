@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Component_Screw_Bronze.name"
+  },
+  "Categories": [
+    "Hytech.Components"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 2
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Bronze_Screw.png",
+  "Icon": "Icons/ItemsGenerated/Component_Screw_Bronze.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Components",
+  "Id": "Component_Screw_Bronze",
+  "Quality": "Common",
+  "MaxStack": 100
+}

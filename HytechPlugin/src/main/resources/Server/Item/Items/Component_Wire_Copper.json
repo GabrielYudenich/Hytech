@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Component_Wire_Copper.name"
+  },
+  "Categories": [
+    "Hytech.Components"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 2
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Copper_Wire.png",
+  "Icon": "Icons/ItemsGenerated/Component_Wire_Copper.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Components",
+  "Id": "Component_Wire_Copper",
+  "Quality": "Common",
+  "MaxStack": 100
+}

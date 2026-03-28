@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Bar_Copper.name"
+  },
+  "Categories": [
+    "Hytech.Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Copper",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 3
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Copper_Ingot.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Copper.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Bars",
+  "Id": "Ingredient_Bar_Copper",
+  "Quality": "Common",
+  "MaxStack": 100
+}

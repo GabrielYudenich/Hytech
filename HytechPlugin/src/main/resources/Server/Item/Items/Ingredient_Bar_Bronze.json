@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Bar_Bronze.name"
+  },
+  "Categories": [
+    "Hytech.Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Tin",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Bronze_Ingot.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Bronze.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "SubCategory": "Bars",
+  "Id": "Ingredient_Bar_Bronze",
+  "Quality": "Common",
+  "MaxStack": 100
+}
